@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+  }
+  
+  .contenedor {
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .contenido {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Columna izquierda */
+  .columna-izquierda {
+    width: 260px;
+  }
+  
+  .columna-izquierda ul {
+    padding-left: 20px;
+  }
+  
+  /* Columna derecha */
+  .columna-derecha {
+    width: 680px; /* 960 - 260 - 20 de gap */
+  }
+  
+  .personajes {
+    border: 1px solid #000;
+    padding: 15px;
+    margin-top: 20px;
+  }
+  
+  .listas-personajes {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  
+  .listas-personajes ul {
+    padding-left: 20px;
+  }
